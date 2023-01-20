@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cv Maker</title>
+  </head>
+  <body>
+    <h1>Cv Hazirlama Araci</h1>
+    <hr />
+    <div class="container">
+      <!-- Sol container cvdeki metin bilgilerinin girilecegi yer -->
+
+      <div class="container-left">
+        <h2>Metin Bilgileri</h2>
+        <hr />
+
+        <p>
+          <b><u>Isim Kutusu</u></b>
+        </p>
+        <!-- isim bilgileri bu alana girilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="name">Ad Soyad:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="info">
+            <label for="title">Unvan:</label>
+            <input type="text" name="title" id="title" />
+          </div>
+        </div>
+
+        <p>
+          <b><u>Iletisim Bilgileri</u></b>
+        </p>
+        <!-- Iletisim bilgileri bu alana girilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="tel">Telefon:</label>
+            <input type="text" name="tel" id="tel" />
+          </div>
+          <div class="info">
+            <label for="mail">Mail:</label>
+            <input type="text" name="mail" id="mail" />
+          </div>
+          <div class="info">
+            <label for="mail">Mail:</label>
+            <input type="text" name="mail" id="mail" />
+          </div>
+          <div class="info">
+            <label for="adres">Adres:</label>
+            <textarea name="adres" id="adres" cols="30" rows="1"></textarea>
+          </div>
+        </div>
+
+        <p>
+          <b><u>Egitim Bilgileri</u></b>
+        </p>
+
+        <!-- Egitim bilgileri bu alana girilecek -->
+
+        <div class="info-container">
+          <div class="info">
+            <label for="aciklama">Aciklama:</label>
+            <textarea
+              name="aciklama"
+              id="aciklama"
+              cols="30"
+              rows="1"
+            ></textarea>
+          </div>
+          <div class="info">
+            <label for="okulSayisi">Okul Sayisi:</label>
+            <select name="okulSayisi" id="okulSayisi">
+              <option value="0">Seciniz</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+
+        <p>
+          <b><u>Yetenekler</u></b>
+        </p>
+
+        <!-- Yetenekler bilgisi bu alana girilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="yetenekler">Aciklama: </label>
+            <textarea
+              name="yetenekler"
+              id="yetenekler"
+              cols="30"
+              rows="1"
+            ></textarea>
+          </div>
+          <div class="info">
+            <label for="yetenekSayisi">Okul Sayisi:</label>
+            <select name="yetenekSayisi" id="yetenekSayisi">
+              <option value="0">Seciniz</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+
+        <p>
+          <b><u>Hakkinda</u></b>
+        </p>
+
+        <!-- Hakkinda bilgisi bu alana girilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="hakkinda">Aciklama:</label>
+            <textarea
+              name="hakkinda"
+              id="hakkinda"
+              cols="30"
+              rows="1"
+            ></textarea>
+          </div>
+        </div>
+
+        <p>
+          <b><u>is Deneyimi</u></b>
+        </p>
+
+        <!-- Is deneyimi bilgisi bu alana girilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="deneyim">Aciklama:</label>
+            <textarea name="deneyim" id="deneyim" cols="30" rows="1"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- sagdaki container cvnin gorunusunun girilecegi yer -->
+      <div class="container-middle">
+        <h2>Gorunus</h2>
+        <hr />
+        <p>
+          <b><u>Renkler</u></b>
+        </p>
+        <!-- renk bilgileri bu alana girilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="arkaplan">Arkaplan rengi:</label>
+            <input type="color" name="arkaplan" id="arkaplan" />
+          </div>
+          <div class="info">
+            <label for="solkolon">Sol kolon rengi:</label>
+            <input type="color" name="solkolon" id="solkolon" />
+          </div>
+          <div class="info">
+            <label for="solkolon">Sol kolon rengi:</label>
+            <input type="color" name="solkolon" id="solkolon" />
+          </div>
+          <div class="info">
+            <label for="isimkutusuyazi">Isim kutusu yazi rengi:</label>
+            <input type="color" name="isimkutusuyazi" id="isimkutusuyazi" />
+          </div>
+        </div>
+        <p>
+          <b><u>Fotograf</u></b>
+        </p>
+        <!-- fotograf tipi bu alanda secilecek -->
+        <div class="info-container">
+          <div class="info">
+            <label for="cerceve">Fotograf cercevesi sekli:</label>
+            <select name="cerceve" id="cerceve">
+              <option value="0">Seciniz</option>
+              <option value="1">Kare</option>
+              <option value="2">Daire</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- cv containeri -->
+      <div class="container-right"></div>
+    </div>
+  </body>
+</html>
